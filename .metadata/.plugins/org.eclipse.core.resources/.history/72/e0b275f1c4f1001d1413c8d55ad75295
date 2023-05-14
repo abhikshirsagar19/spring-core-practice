@@ -1,0 +1,8 @@
+package com.spring.Set;
+
+public class Snippet {
+	public static void main(String[] args) {
+		<value>Mechanical</value>
+	}
+}
+

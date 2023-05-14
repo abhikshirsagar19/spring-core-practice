@@ -1,0 +1,8 @@
+package com.spring.Set;
+
+import java.util.Set;
+
+public class Bank {
+	private String name;
+	private Set<String> accountTypes;
+}

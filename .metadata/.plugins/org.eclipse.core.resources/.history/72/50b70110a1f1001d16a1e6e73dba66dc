@@ -1,0 +1,6 @@
+package com.abhishek.spring.springcore;
+
+public class Product {
+	private int product_id;
+	private String product_name;
+}

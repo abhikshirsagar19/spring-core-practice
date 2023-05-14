@@ -1,0 +1,8 @@
+package com.spring.List;
+
+import java.util.List;
+
+public class College {
+	private String name;
+	private List<String> departments;
+}

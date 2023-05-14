@@ -1,0 +1,16 @@
+package com.abhishek.spring.springcore;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestStudent {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("configstudent.xml");
+		Student student = (Student) ctx.getBean("student");
+
+		System.out.println("\n  Student Roll Number  : " + student.getStudent_rollNumber());
+		System.out.println("\n Student Name  " + student.getStudent_name());
+	}
+
+}
